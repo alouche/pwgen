@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="chrome://pwgen/skin/mpm.css"?>
+<!DOCTYPE overlay SYSTEM "chrome://pwgen/locale/pwgen.dtd">
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&mpm.windowtitle;">
+<script type="application/x-javascript" src="chrome://pwgen/content/mpm.js"></script>
+<vbox>
+  <groupbox>
+    <caption label="&mpm.manager;"/>
+		<description>&mpm.masterpassdesc;</description>
+    <textbox id="masterPasswordField" type="password" onkeyup="if ((event.keyCode||event.which) != 9){ pwgenMPM.liveGenMPM();}"/>
+		<description>&mpm.usernamedesc;</description>
+		<textbox id="usernameField" onkeyup="if ((event.keyCode||event.which) != 9){ pwgenMPM.liveGenMPM();}"/>
+		<description>&mpm.sitedesc;</description>
+    <textbox id="siteField" onkeyup="if ((event.keyCode||event.which) != 9){ pwgenMPM.liveGenMPM();}"/>
+    </groupbox>
+    <groupbox>
+		<textbox id="resultField" disabled="true"/>
+		<label id="MPMCopyPass" value="&mpm.copyclip;" onclick="pwgenMPM.copyClip();"/>
+		</groupbox>
+</vbox>
+</window>

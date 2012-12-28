@@ -1,0 +1,14 @@
+content pwgen  chrome/content/
+content pwgen  chrome/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul    chrome://pwgen/content/pwgen.xul
+overlay	chrome://navigator/content/navigator.xul chrome://pwgen/content/pwgen.xul
+skin pwgen classic/1.0 skin/
+style	chrome://pwgen/content/options.xul	chrome://global/skin/
+style chrome://global/content/customizeToolbar.xul chrome://pwgen/skin/pwgen-statusbar.css
+locale pwgen en-US chrome/locale/en-US/
+locale pwgen fr-FR chrome/locale/fr-FR/
+locale pwgen it-IT chrome/locale/it-IT/
+locale pwgen de-DE chrome/locale/de-DE/
+locale pwgen es-ES chrome/locale/es-ES/
+locale pwgen ru-RU chrome/locale/ru-RU/
+locale pwgen pl-PL chrome/locale/pl-PL/

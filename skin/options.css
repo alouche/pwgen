@@ -1,0 +1,11 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+window {
+  -moz-box-align: start;
+  background-color: -moz-dialog;
+  font: -moz-dialog;
+  padding: 1em;
+}
+
+radio[pane=generalOptions] {list-style-image: url("generaloptions.png")}
+radio[pane=extras-id] {list-style-image: url("extras.png")}

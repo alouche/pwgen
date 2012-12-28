@@ -1,0 +1,16 @@
+pref("extensions.pwgen.firstNumber", true);
+pref("extensions.pwgen.lastNumber", true);
+pref("extensions.pwgen.firstLower", true);
+pref("extensions.pwgen.lastLower", true);
+pref("extensions.pwgen.firstUpper", true);
+pref("extensions.pwgen.lastUpper", true);
+pref("extensions.pwgen.firstOther", true);
+pref("extensions.pwgen.lastOther", false);
+pref("extensions.pwgen.copycli", true);
+pref("extensions.pwgen.display", true);
+pref("extensions.pwgen.masterpass", false);
+pref("extensions.pwgen.length", "8");
+pref("extensions.pwgen.specialchar","`~!@#$%^&*()-_=+[{]}\\|;:'\",<.>/?");
+pref("extensions.pwgen.excludechar","Oa");
+pref("extensions.pwgen.passhistory",false);
+pref("extensions.pwgen.toolbar-button-set",false);

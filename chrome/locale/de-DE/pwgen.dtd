@@ -1,0 +1,41 @@
+<!ENTITY	main.help	"Hilfe">
+<!ENTITY  main.mpm "Master Passwort">
+<!ENTITY  main.options "Einstellungen...">
+<!ENTITY  main.tooltip "Passwort Generator - pwgen">
+<!ENTITY  main.passhist "Passwort Verlauf">
+<!ENTITY  main.showpasshist "Anzeigen">
+<!ENTITY  main.clearpasshist "Löschen">
+
+<!ENTITY  mpm.manager "Generator">
+<!ENTITY  mpm.masterpassdesc "Geben Sie Ihr Master Passwort ein">
+<!ENTITY  mpm.usernamedesc "Geben Sie Ihren Usernamen ein (optional)">
+<!ENTITY  mpm.sitedesc "Geben Sie eine URL / Router Name / Hostname ein">
+<!ENTITY  mpm.result "Ergebnis">
+<!ENTITY  mpm.copyclip "In den Zwischenspeicher kopieren">
+
+<!ENTITY  mpm.windowtitle "pwgen - Master Passwort">
+<!ENTITY  options.windowtitle "pwgen - Optionen">
+<!ENTITY  options.prefpane1 "Allgemeine Einstellungen">
+<!ENTITY  options.prefpane1.caption1 "Anfangsbuchstabe">
+<!ENTITY  options.firstlowercaselabel "Kleinbuchstaben">
+<!ENTITY  options.firstuppercaselabel "Grossbuchstaben">
+<!ENTITY  options.firstnumberslabel "Zahlen">
+<!ENTITY  options.firstspecialchars "Sonderzeichen verwenden">
+
+<!ENTITY  options.prefpane1.caption2 "Endbuchstabe">
+<!ENTITY  options.lastlowercaselabel "Kleinbuchstaben">
+<!ENTITY  options.lastuppercaselabel "Grossbuchstaben">
+<!ENTITY  options.lastnumberslabel "Zahlen">
+<!ENTITY  options.lastspecialchars "Sonderzeichen verwenden">
+
+<!ENTITY  options.prefpane2 "Extras">
+<!ENTITY  options.prefpane2.caption1 "Einstellungen">
+<!ENTITY  options.passwordlengthlabel "Passwortlänge">
+<!ENTITY  options.displaylabel "Passwort anzeigen">
+<!ENTITY  options.cliplabel "In den Zwischenspeicher kopieren">
+<!ENTITY  options.mpmlabel "Master Passwort">
+<!ENTITY  options.specialcharslabel "Sonderzeichen verwenden">
+<!ENTITY  options.excludecharlabel "Ausschließen">
+<!ENTITY  options.logpasslabel "Passwort Verlauf">
+
+<!ENTITY  passwordHistory.windowtitle "pwgen - Passwort Verlauf">

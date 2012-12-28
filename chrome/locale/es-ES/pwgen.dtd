@@ -1,0 +1,41 @@
+<!ENTITY  main.help "Ayuda">
+<!ENTITY  main.mpm "Contraseña maestra">
+<!ENTITY  main.options "Opciones">
+<!ENTITY  main.tooltip "Contraseña Generador - pwgen">
+<!ENTITY  main.passhist "Contraseña Historia">
+<!ENTITY  main.showpasshist "Mostrar">
+<!ENTITY  main.clearpasshist "Claro">
+
+<!ENTITY  mpm.windowtitle "pwgen - Contraseña maestra">
+<!ENTITY  mpm.manager "Generador">
+<!ENTITY  mpm.masterpassdesc "Contraseña maestra">
+<!ENTITY  mpm.usernamedesc "Usuario (opcional)">
+<!ENTITY  mpm.sitedesc "Dominio">
+<!ENTITY  mpm.result "Resultado">
+<!ENTITY  mpm.copyclip "Copiar">
+
+<!ENTITY  options.windowtitle "pwgen - Opciones">
+<!ENTITY  options.prefpane1 "Opciones generales">
+<!ENTITY  options.prefpane1.caption1 "Primeros caracteres comienzan con">
+<!ENTITY  options.firstlowercaselabel "Minúsculas">
+<!ENTITY  options.firstuppercaselabel "Mayúsculas">
+<!ENTITY  options.firstnumberslabel "Cifras">
+<!ENTITY  options.firstspecialchars "Caracteres especiales">
+
+<!ENTITY  options.prefpane1.caption2 "Caracteres postreros comienzan con">
+<!ENTITY  options.lastlowercaselabel "Minúsculas">
+<!ENTITY  options.lastuppercaselabel "Mayúsculas">
+<!ENTITY  options.lastnumberslabel "Cifras">
+<!ENTITY  options.lastspecialchars "Caracteres especiales">
+
+<!ENTITY  options.prefpane2 "Extras">
+<!ENTITY  options.prefpane2.caption1 "Opciones">
+<!ENTITY  options.passwordlengthlabel "Longitud de contraseña">
+<!ENTITY  options.displaylabel "Mostrar contraseña">
+<!ENTITY  options.cliplabel "Copiar">
+<!ENTITY  options.mpmlabel "Contraseña maestra">
+<!ENTITY  options.specialcharslabel "Caracteres especiales">
+<!ENTITY  options.excludecharlabel "Excluir caracteres">
+<!ENTITY  options.logpasslabel "Contraseña Historia">
+
+<!ENTITY  passwordHistory.windowtitle "pwgen - Contraseña Historia">

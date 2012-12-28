@@ -1,0 +1,41 @@
+<!ENTITY  main.help "Справка">
+<!ENTITY  main.mpm "Мастер-пароль">
+<!ENTITY  main.options "Настройки...">
+<!ENTITY  main.tooltip "Генератор паролей - pwgen">
+<!ENTITY  main.passhist "История паролей">
+<!ENTITY  main.showpasshist "Показать">
+<!ENTITY  main.clearpasshist "Очистить">
+
+<!ENTITY  mpm.windowtitle "pwgen - Мастер-пароль">
+<!ENTITY  mpm.manager "Генератор на основе мастер-пароля">
+<!ENTITY  mpm.masterpassdesc "Введите ваш мастер-пароль">
+<!ENTITY  mpm.usernamedesc "Введите ваше имя пользователя (необязательно)">
+<!ENTITY  mpm.sitedesc "Введите имя сайта/роутера/хоста">
+<!ENTITY  mpm.result "Результат">
+<!ENTITY  mpm.copyclip "В буфер обмена">
+
+<!ENTITY  options.windowtitle "pwgen - Настройки">
+<!ENTITY  options.prefpane1 "Основное">
+<!ENTITY  options.prefpane1.caption1 "Первый символ может быть">
+<!ENTITY  options.firstlowercaselabel "Строчная буква">
+<!ENTITY  options.firstuppercaselabel "Прописная буква">
+<!ENTITY  options.firstnumberslabel "Цифра">
+<!ENTITY  options.firstspecialchars "Спецсивол">
+
+<!ENTITY  options.prefpane1.caption2 "Остальные символы могут быть">
+<!ENTITY  options.lastlowercaselabel "Строчные буквы">
+<!ENTITY  options.lastuppercaselabel "Прописные буквы">
+<!ENTITY  options.lastnumberslabel "Цифры">
+<!ENTITY  options.lastspecialchars "Спецсимволы">
+
+<!ENTITY  options.prefpane2 "Дополнительно">
+<!ENTITY  options.prefpane2.caption1 "Настройки">
+<!ENTITY  options.passwordlengthlabel "Длина пароля">
+<!ENTITY  options.displaylabel "Показывать пароль">
+<!ENTITY  options.cliplabel "Копировать в буфер обмена">
+<!ENTITY  options.mpmlabel "Мастер-пароль">
+<!ENTITY  options.specialcharslabel "Спецсимволы">
+<!ENTITY  options.excludecharlabel "Исключить символы">
+<!ENTITY  options.logpasslabel "Вести историю паролей">
+
+<!ENTITY  passwordHistory.windowtitle "pwgen - История паролей">

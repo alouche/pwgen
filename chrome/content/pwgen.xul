@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://pwgen/skin/pwgen.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://pwgen/locale/pwgen.dtd">
+<overlay id="pwgenlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="chrome://pwgen/content/pwgen.js"></script>
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="pwgen-button"
+      label="pwgen"
+      class="toolbarbutton-1 chromeclass-toolbar-additional"
+      oncommand="pwgen.getPassword(event);"
+      tooltiptext="pwgen"
+      type="menu-button">
+      <menupopup id="pwgen-toolbar-menu" label="pwgen" oncommand="pwgen.getPassword(event);">
+        <menuitem id="pwgen-help" label="&main.help;" onclick="pwgen.help();" />
+        <menuseparator/>
+		    <menuitem label="&main.mpm;" onclick="pwgen.showMPM();" />
+		      <menu label="&main.passhist;">
+		        <menupopup id="history-sub">
+              <menuitem label="&main.showpasshist;" onclick="pwgen.getPasswordHistory('');"/>
+              <menuitem label="&main.clearpasshist;" onclick="pwgen.getPasswordHistory('clear');"/>
+            </menupopup>
+          </menu>
+        <menuitem label="&main.options;" onclick="pwgen.showOptions();" />
+      </menupopup>
+    </toolbarbutton>
+  </toolbarpalette>
+  <vbox id="appcontent">
+    <label  hidden="true" id="showPassStatusBar" value="" onclick="pwgen.hidePass();" />
+	</vbox>
+</overlay>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>pwgen@alouche.net</em:id>
+    <em:type>2</em:type>
+    <em:localized>
+      <Description>
+        <em:locale>de</em:locale>
+        <em:name>pwgen - Passwort Generator</em:name>
+        <em:description>Für System-Admins / Netzwerk Ingineure / und alle anderen die einen schnellen Passwort-Generator brauchen</em:description>
+        <em:creator>Ali Abbas</em:creator>
+        <em:homepageURL>http://pwgen.alouche.net</em:homepageURL>
+        <em:translator>Ali Abbas - ali@alouche.net</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>fr</em:locale>
+        <em:name>pwgen - Générateur de mot de passe</em:name>
+        <em:creator>Ali Abbas</em:creator>
+        <em:homepageURL>http://pwgen.alouche.net</em:homepageURL>
+        <em:translator>Ali Abbas - ali@alouche.net</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>it</em:locale>
+        <em:name>pwgen - Generatore di password</em:name>
+        <em:creator>Ali Abbas</em:creator>
+        <em:homepageURL>http://pwgen.alouche.net</em:homepageURL>
+        <em:translator>Emmanuele Massimi - finferflu@gmail.com</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>es</em:locale>
+        <em:name>pwgen - Contraseña Generador</em:name>
+        <em:creator>Ali Abbas</em:creator>
+        <em:homepageURL>http://pwgen.alouche.net</em:homepageURL>
+        <em:translator>Ricardo A. Rivas - rivica@gmail.com</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>ru</em:locale>
+        <em:name>pwgen - Генератор паролей</em:name>
+        <em:creator>Ali Abbas</em:creator>
+        <em:homepageURL>http://pwgen.alouche.net</em:homepageURL>
+        <em:translator>Artem Karpenko - gooyozh@gmail.com</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>pl</em:locale>
+        <em:name>pwgen - Generator Hasła</em:name>
+        <em:creator>Ali Abbas</em:creator>
+        <em:homepageURL>http://pwgen.alouche.net</em:homepageURL>
+        <em:translator>Slawomir Dal - slawomirdal@gmail.com</em:translator>
+      </Description>
+    </em:localized>
+    <em:name>pwgen - Password Generator</em:name>
+    <em:version>0.5</em:version>
+    <em:creator>Ali Abbas - ali@alouche.net</em:creator>
+    <em:description>For Sysadmins / Network Engineers / and why not everybody who needs a quick password generator</em:description>
+    <em:homepageURL>http://pwgen.alouche.net</em:homepageURL>
+    <em:iconURL>chrome://pwgen/skin/pwgen.png</em:iconURL>
+    <em:optionsURL>chrome://pwgen/content/options.xul</em:optionsURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>7.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

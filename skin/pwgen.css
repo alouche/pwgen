@@ -1,0 +1,13 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#showPassStatusBar {
+  padding-right: 10px;
+  text-align: right;
+  color: #404243;
+  font-weight: bold;
+}
+
+#pwgen-button {
+  list-style-image: url("pwgen.png");
+  border:0px;
+}

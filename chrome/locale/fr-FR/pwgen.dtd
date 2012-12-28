@@ -1,0 +1,41 @@
+<!ENTITY	main.help	"Aide">
+<!ENTITY  main.mpm "Mot de passe Maître">
+<!ENTITY  main.options "Préférences...">
+<!ENTITY  main.tooltip "Générateur de mot de passe - pwgen">
+<!ENTITY  main.passhist "Historique Mot de passe">
+<!ENTITY  main.showpasshist "Afficher">
+<!ENTITY  main.clearpasshist "Effacer">
+
+<!ENTITY  mpm.windowtitle "pwgen - Mot de passe Maître">
+<!ENTITY  mpm.manager "Générateur">
+<!ENTITY  mpm.masterpassdesc "Taper votre mot de passe maître">
+<!ENTITY  mpm.usernamedesc "Taper le nom d'utilisateur (optionnel)">
+<!ENTITY  mpm.sitedesc "Taper le nom de domain du site">
+<!ENTITY  mpm.result "Résultat">
+<!ENTITY  mpm.copyclip "Copiez dans le presse à papier">
+
+<!ENTITY  options.windowtitle "pwgen - Options">
+<!ENTITY  options.prefpane1 "Options Générales">
+<!ENTITY  options.prefpane1.caption1 "Les premiers caractères commencent avec">
+<!ENTITY  options.firstlowercaselabel "Minuscule">
+<!ENTITY  options.firstuppercaselabel "Majuscule">
+<!ENTITY  options.firstnumberslabel "Chiffres">
+<!ENTITY  options.firstspecialchars "Des caractères spéciaux">
+
+<!ENTITY  options.prefpane1.caption2 "Les derniers caractères commencent avec">
+<!ENTITY  options.lastlowercaselabel "Minuscule">
+<!ENTITY  options.lastuppercaselabel "Majuscule">
+<!ENTITY  options.lastnumberslabel "Chiffres">
+<!ENTITY  options.lastspecialchars "Des caractères spéciaux">
+
+<!ENTITY  options.prefpane2 "Extras">
+<!ENTITY  options.prefpane2.caption1 "Préférences">
+<!ENTITY  options.passwordlengthlabel "Longueur du mot de passe">
+<!ENTITY  options.displaylabel "Montrer le mot de passe">
+<!ENTITY  options.cliplabel "Copier dans le champ à papier">
+<!ENTITY  options.mpmlabel "Mot de passe maître">
+<!ENTITY  options.specialcharslabel "Caractères spéciaux">
+<!ENTITY  options.excludecharlabel "Exclure Caractères">
+<!ENTITY  options.logpasslabel "Historique Mot de passe">
+
+<!ENTITY  passwordHistory.windowtitle "pwgen - Historique Mot de passe">

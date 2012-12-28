@@ -1,0 +1,41 @@
+<!ENTITY	main.help	"Pomoc">
+<!ENTITY  main.mpm "Hasło">
+<!ENTITY  main.options "Opcje...">
+<!ENTITY  main.tooltip "Generator Hasła - pwgen">
+<!ENTITY  main.passhist "Historia Haseł">
+<!ENTITY  main.showpasshist "Pokaż">
+<!ENTITY  main.clearpasshist "Wyczyść">
+
+<!ENTITY  mpm.windowtitle "pwgen - Hasło Główne">
+<!ENTITY  mpm.manager "Generator">
+<!ENTITY  mpm.masterpassdesc "Wpisz swoje hasło główne">
+<!ENTITY  mpm.usernamedesc "Wpisz swoją nazwę użytkownika(opcjonalnie)">
+<!ENTITY  mpm.sitedesc "Wpisz nazwę lokalizacji / nazwę routera / nazwę hosta">
+<!ENTITY  mpm.result "Rezultat">
+<!ENTITY  mpm.copyclip "Kopiuj do schowka">
+
+<!ENTITY  options.windowtitle "pwgen - Opcje">
+<!ENTITY  options.prefpane1 "Opcje Ogólne">
+<!ENTITY  options.prefpane1.caption1 "Pierwsze znaki zaczynają się">
+<!ENTITY  options.firstlowercaselabel "Małymi literami">
+<!ENTITY  options.firstuppercaselabel "Dużymi literami">
+<!ENTITY  options.firstnumberslabel "Liczbami">
+<!ENTITY  options.firstspecialchars "Użyj znaków specjalnych">
+
+<!ENTITY  options.prefpane1.caption2 "Ostatnie znaki zaczynają się">
+<!ENTITY  options.lastlowercaselabel "Małymi literami">
+<!ENTITY  options.lastuppercaselabel "Dużymi literami">
+<!ENTITY  options.lastnumberslabel "Liczbami">
+<!ENTITY  options.lastspecialchars "Użyj znaków specjalnych">
+
+<!ENTITY  options.prefpane2 "Dodatki">
+<!ENTITY  options.prefpane2.caption1 "Ustawienia">
+<!ENTITY  options.passwordlengthlabel "Długość Hasła">
+<!ENTITY  options.displaylabel "Wyświetl Hasło">
+<!ENTITY  options.cliplabel "Kopiuj do schowka">
+<!ENTITY  options.mpmlabel "Hasło Główne">
+<!ENTITY  options.specialcharslabel "Znaki Specjalne">
+<!ENTITY  options.excludecharlabel "Nie używaj znaków">
+<!ENTITY  options.logpasslabel "Historia haseł">
+
+<!ENTITY  passwordHistory.windowtitle "pwgen - Historia Haseł">

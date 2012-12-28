@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://pwgen/skin/options.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://pwgen/locale/pwgen.dtd">
+<prefwindow windowtype="pwgen:Options" title="&options.windowtitle;" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<prefpane label="&options.prefpane1;" id="generalOptions">
+  <preferences>
+	<preference id="firstLowerPref" name="extensions.pwgen.firstLower" type="bool"/>
+  <preference id="firstUpperPref" name="extensions.pwgen.firstUpper" type="bool"/>
+  <preference id="firstNumberPref" name="extensions.pwgen.firstNumber" type="bool"/>
+ 	<preference id="firstOtherPref" name="extensions.pwgen.firstOther" type="bool"/>
+  <preference id="lastLowerPref" name="extensions.pwgen.lastLower" type="bool"/>
+  <preference id="lastUpperPref" name="extensions.pwgen.lastUpper" type="bool"/>
+  <preference id="lastNumberPref" name="extensions.pwgen.lastNumber" type="bool"/>
+	<preference id="lastOtherPref" name="extensions.pwgen.lastOther" type="bool"/>
+	</preferences>
+  <grid flex="1">
+    <rows>
+      <row>
+        <label class="options.prefpane1.caption1" value="&options.prefpane1.caption1;" />
+			  <spacer width="1" height="1" />
+        <label id="options.prefpane1.caption2" value="&options.prefpane1.caption2;" />
+      </row>
+      <row>
+        <checkbox preference="firstLowerPref" label="&options.firstlowercaselabel;"/>
+  		  <spacer width="1" height="1" />
+        <checkbox preference="lastLowerPref" label="&options.lastlowercaselabel;"/>
+      </row>
+      <row>
+        <checkbox preference="firstUpperPref" label="&options.firstuppercaselabel;"/>
+        <spacer width="1" height="1" />
+        <checkbox preference="lastUpperPref" label="&options.lastuppercaselabel;"/>
+      </row>
+      <row>
+        <checkbox preference="firstNumberPref" label="&options.firstnumberslabel;"/>
+				<spacer width="1" height="1" />
+				<checkbox preference="lastNumberPref" label="&options.lastnumberslabel;"/>
+      </row>
+      <row>
+        <checkbox preference="firstOtherPref" label="&options.firstspecialchars;"/>
+				<spacer width="1" height="1" />
+        <checkbox preference="lastOtherPref" label="&options.lastspecialchars;"/>
+      </row>
+    </rows>
+  </grid> 
+</prefpane>
+
+<prefpane label="&options.prefpane2;" id="extras-id">
+ <preferences>
+  <preference id="copycliPref" name="extensions.pwgen.copycli" type="bool"/>
+  <preference id="displayPref" name="extensions.pwgen.display" type="bool"/>
+  <preference id="masterPassPref" name="extensions.pwgen.masterpass" type="bool"/>
+  <preference id="passhistoryPref" name="extensions.pwgen.passhistory" type="bool"/>
+  <preference id="lengthPref" name="extensions.pwgen.length" type="string"/>
+  <preference id="charListPref" name="extensions.pwgen.specialchar" type="string"/>
+  <preference id="excludeListPref" name="extensions.pwgen.excludechar" type="string"/>
+ </preferences>
+  <grid flex="1">
+   <rows>
+    <row>
+      <checkbox id="masterpass" preference="masterPassPref" label="&options.mpmlabel;"/>
+      <hbox align="center">
+        <label control="pwlength" value="&options.passwordlengthlabel;"/>
+      </hbox>
+      <hbox align="center">
+        <textbox id="length" type="number" min="4" max="50" width="60" preference="lengthPref"/> 
+      </hbox>    
+		</row>
+    <row>
+      <checkbox id="passhistory" preference="passhistoryPref" label="&options.logpasslabel;"/>
+      <hbox align="center">
+        <label control="charsListLabel" value="&options.specialcharslabel;"/>
+      </hbox>
+      <hbox align="center">
+        <textbox id="charsList" width="150" preference="charListPref" />    
+      </hbox>
+    </row>
+    <row>
+      <checkbox id="display" preference="displayPref" label="&options.displaylabel;"/>
+      <hbox align="center">
+        <label control="excludeListLabel" value="&options.excludecharlabel;"/>
+      </hbox>
+      <hbox align="center">
+        <textbox id="excludeList" width="150" preference="excludeListPref"/>    
+     </hbox>
+    </row>
+    <row>
+      <checkbox id="copycli" preference="copycliPref" label="&options.cliplabel;"/>
+    </row>
+   </rows>
+  </grid>
+</prefpane>
+</prefwindow>

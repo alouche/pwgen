@@ -1,0 +1,41 @@
+<!ENTITY	main.help	"Help">
+<!ENTITY  main.mpm "Master Password">
+<!ENTITY  main.options "Options...">
+<!ENTITY  main.tooltip "Password Generator - pwgen">
+<!ENTITY  main.passhist "Password History">
+<!ENTITY  main.showpasshist "Show">
+<!ENTITY  main.clearpasshist "Clear">
+
+<!ENTITY  mpm.windowtitle "pwgen - Master Password">
+<!ENTITY  mpm.manager "Generator">
+<!ENTITY  mpm.masterpassdesc "Type in your master password">
+<!ENTITY  mpm.usernamedesc "Type in your username (optional)">
+<!ENTITY  mpm.sitedesc "Type in a site name / a router name / hostname">
+<!ENTITY  mpm.result "Result">
+<!ENTITY  mpm.copyclip "Copy to clipboard">
+
+<!ENTITY  options.windowtitle "pwgen - Options">
+<!ENTITY  options.prefpane1 "General Options">
+<!ENTITY  options.prefpane1.caption1 "First characters start with">
+<!ENTITY  options.firstlowercaselabel "Lowercase">
+<!ENTITY  options.firstuppercaselabel "Uppercase">
+<!ENTITY  options.firstnumberslabel "Numbers">
+<!ENTITY  options.firstspecialchars "Include special characters">
+
+<!ENTITY  options.prefpane1.caption2 "Last characters start with">
+<!ENTITY  options.lastlowercaselabel "Lowercase">
+<!ENTITY  options.lastuppercaselabel "Uppercase">
+<!ENTITY  options.lastnumberslabel "Numbers">
+<!ENTITY  options.lastspecialchars "Include special characters">
+
+<!ENTITY  options.prefpane2 "Extras">
+<!ENTITY  options.prefpane2.caption1 "Settings">
+<!ENTITY  options.passwordlengthlabel "Password Length">
+<!ENTITY  options.displaylabel "Display Password">
+<!ENTITY  options.cliplabel "Copy to clipboard">
+<!ENTITY  options.mpmlabel "Master Password">
+<!ENTITY  options.specialcharslabel "Special Characters">
+<!ENTITY  options.excludecharlabel "Exclude Characters">
+<!ENTITY  options.logpasslabel "Password History">
+
+<!ENTITY  passwordHistory.windowtitle "pwgen - Password History">

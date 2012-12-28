@@ -1,0 +1,41 @@
+<!ENTITY  main.help	"Aiuto">
+<!ENTITY  main.mpm "Password globale">
+<!ENTITY  main.options "Opzioni...">
+<!ENTITY  main.tooltip "Generatore di password - pwgen">
+<!ENTITY  main.passhist "Password Log">
+<!ENTITY  main.showpasshist "Mostra">
+<!ENTITY  main.clearpasshist "Chiaro">
+
+<!ENTITY  mpm.windowtitle "pwgen - Password globale">
+<!ENTITY  mpm.manager "Generatore">
+<!ENTITY  mpm.masterpassdesc "Inserire la password globale">
+<!ENTITY  mpm.usernamedesc "Inserire nome utente (facoltativo)">
+<!ENTITY  mpm.sitedesc "Inserire il nome di un sito web / un router  / un hostname">
+<!ENTITY  mpm.result "Risultato">
+<!ENTITY  mpm.copyclip "Copia nella clipboard">
+
+<!ENTITY  options.windowtitle "pwgen - Opzioni">
+<!ENTITY  options.prefpane1 "Opzioni generali">
+<!ENTITY  options.prefpane1.caption1 "I primi caratteri iniziano per">
+<!ENTITY  options.firstlowercaselabel "Minuscolo">
+<!ENTITY  options.firstuppercaselabel "Maiuscolo">
+<!ENTITY  options.firstnumberslabel "Numeri">
+<!ENTITY  options.firstspecialchars "Includere caratteri speciali">
+
+<!ENTITY  options.prefpane1.caption2 "Gli ultimi caratteri iniziano per">
+<!ENTITY  options.lastlowercaselabel "Minuscolo">
+<!ENTITY  options.lastuppercaselabel "Maiuscolo">
+<!ENTITY  options.lastnumberslabel "Numeri">
+<!ENTITY  options.lastspecialchars "Includere caratteri speciali">
+
+<!ENTITY  options.prefpane2 "Extra">
+<!ENTITY  options.prefpane2.caption1 "Impostazioni">
+<!ENTITY  options.passwordlengthlabel "Lunghezza password">
+<!ENTITY  options.displaylabel "Mostra password">
+<!ENTITY  options.cliplabel "Copia nella clipboard">
+<!ENTITY  options.mpmlabel "Password globale">
+<!ENTITY  options.specialcharslabel "Caratteri speciali">
+<!ENTITY  options.excludecharlabel "Escludi caratteri">
+<!ENTITY  options.logpasslabel "Password Log">
+
+<!ENTITY  passwordHistory.windowtitle "pwgen - Password Log">
