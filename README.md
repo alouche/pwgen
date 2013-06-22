@@ -2,7 +2,7 @@
 
 pwgen addon for Firefox - "a simple/tiny password generator"
 
-![Statistics] (https://addons.mozilla.org/en-us/firefox/addon/pwgen-password-generator/statistics/?last=30)
+![Image] (https://addons.mozilla.org/en-us/firefox/addon/pwgen-password-generator/statistics/?last=30)
 
 Download [https://addons.mozilla.org/firefox/downloads/latest/12441/addon-12441-latest.xpi?src=dp-btn-primary]
 
