@@ -6,7 +6,7 @@
   <toolbarpalette id="BrowserToolbarPalette">
     <toolbarbutton id="pwgen-button"
       label="pwgen"
-      class="toolbarbutton-1 chromeclass-toolbar-additional"
+      class="menuitem-iconic toolbarbutton-1 chromeclass-toolbar-additional"
       oncommand="pwgen.getPassword(event);"
       tooltiptext="pwgen"
       type="menu-button">

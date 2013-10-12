@@ -1,5 +1,7 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
+toolbar[iconsize="small"] #pwgen-button;
+
 #showPassStatusBar {
   padding-right: 10px;
   text-align: right;
@@ -8,6 +10,6 @@
 }
 
 #pwgen-button {
-  list-style-image: url("pwgen.png");
+  list-style-image: url(chrome://pwgen/skin/pwgen.png);
   border:0px;
 }
