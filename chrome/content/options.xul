@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://pwgen/skin/options.css" type="text/css"?>
 <!DOCTYPE window SYSTEM "chrome://pwgen/locale/pwgen.dtd">
-<prefwindow windowtype="pwgen:Options" title="&options.windowtitle;" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<prefwindow id="optionsWindow" windowtype="pwgen:Options" title="&options.windowtitle;" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 <prefpane label="&options.prefpane1;" id="generalOptions">
   <preferences>
 	<preference id="firstLowerPref" name="extensions.pwgen.firstLower" type="bool"/>
