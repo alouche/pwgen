@@ -1,7 +1,5 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-toolbar[iconsize="small"] #pwgen-button;
-
 #showPassStatusBar {
   padding-right: 10px;
   text-align: right;

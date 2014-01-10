@@ -60,7 +60,7 @@
       </Description>
     </em:localized>
     <em:name>pwgen - Password Generator</em:name>
-    <em:version>0.5.2</em:version>
+    <em:version>0.5.3</em:version>
     <em:creator>Ali Abbas - ali@alouche.net</em:creator>
     <em:description>For Sysadmins / Network Engineers / and why not everybody who needs a quick password generator</em:description>
     <em:homepageURL>http://pwgen.alouche.net</em:homepageURL>
