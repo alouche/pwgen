@@ -31,6 +31,17 @@ var pwgen =
   charSet           : "",
   showPassStatusBar : "",
   passHistVar       : "",
+
+  randomGenerator: function()
+  {
+     if (window.crypto && typeof window.crypto.getRandomValues === "function") {
+       var buffer = new Uint32Array(1);
+       window.crypto.getRandomValues(buffer);
+       return buffer[0] / (Math.pow(2, 32) + 1);
+     } else {
+       return Math.random();
+     }
+  },
   
   clipboardToCopy : function (generatedPass)
   {
@@ -92,7 +103,7 @@ var pwgen =
     {
       pwgen.charSet += otherChars;
     }
-    return pwgen.charSet.charAt(Math.floor(Math.random() * pwgen.charSet.length));
+    return pwgen.charSet.charAt(Math.round(pwgen.randomGenerator() * pwgen.charSet.length));
   },
 
   getLocalMsg : function (msg)
