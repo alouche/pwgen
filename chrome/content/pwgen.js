@@ -1,7 +1,7 @@
 /*
 * Ali Abbas | ali@alouche.net | http://alouche.net
 * GPL v.3 License - 2010 - 2011
-* http://pwgen.alouche.net
+* http://alouche.net/pwgen
 */
 
 var pwgen = 
@@ -197,7 +197,7 @@ var pwgen =
   
   help : function()
   {
-    var new_tab = gBrowser.addTab("http://pwgen.alouche.net/howto");
+    var new_tab = gBrowser.addTab("http://alouche.net/pwgen#howto");
     gBrowser.selectedTab = new_tab;
   },
   
