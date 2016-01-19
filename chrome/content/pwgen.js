@@ -37,7 +37,7 @@ var pwgen =
      if (window.crypto && typeof window.crypto.getRandomValues === "function") {
        var buffer = new Uint32Array(1);
        window.crypto.getRandomValues(buffer);
-       return buffer[0] / (Math.pow(2, 32) - 1);
+       return buffer[0] / Math.pow(2, 32);
      } else {
        return Math.random();
      }
@@ -103,7 +103,7 @@ var pwgen =
     {
       pwgen.charSet += otherChars;
     }
-    return pwgen.charSet.charAt(Math.round(pwgen.randomGenerator() * pwgen.charSet.length));
+    return pwgen.charSet.charAt(Math.floor(pwgen.randomGenerator() * pwgen.charSet.length));
   },
 
   getLocalMsg : function (msg)
